@@ -1,0 +1,180 @@
+.App {
+  display: flex;
+  height: 100px;
+  background: linear-gradient(to right, #000000, #C40101);
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+
+.section {
+  flex-direction: column;
+}
+
+.content {
+  margin-left: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  display: flex;
+
+}
+
+.logoHeader {
+  width: 80px;
+  margin-right: 20px;
+}
+
+.logosesi {
+  width: 150px;
+  height: 50px;
+}
+
+.content p {
+  color: #FFFFFF;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  width: 200px;
+  margin-left: 500px;
+}
+
+.search-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #008cba;
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #005f73;
+}
+
+.search-input {
+  margin-left: 0px;
+
+}
+
+.imgSesi {
+  width: 100%;
+}
+
+.imgVolei {
+  width: 100%;
+}
+
+.container h1 {
+  margin-top: -600px;
+  margin-left: 50px;
+  color: white;
+  font-size: 100px;
+}
+
+.container p {
+  font-family: Khand;
+  width: 600px;
+  color: white;
+  font-size: 45px;
+}
+
+.tabela {
+  width: 400px;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+}
+
+.tabela h1 {
+  margin-top: 50px;
+
+}
+
+.title {
+  margin-left: 30px;
+  display: flex;
+  width: 350px;
+  height: 50px;
+  background-color: #E6E0E0;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+
+}
+
+.title h2 {
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+
+}
+
+.title h3 {
+  color: rgb(130, 120, 120);
+  margin-right: 10px;
+
+}
+
+.pai {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.tabelas {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.medalha {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.titleHeader {
+  margin-left: 30px;
+  color: white;
+  font-family: Moul;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 108.4px;
+}
+
+@media (max-width: 800px)  {
+  .container p {
+    font-family: Khand;
+    width: 600px;
+    color: white;
+
+    margin-top: 233px;
+  }
+}
+

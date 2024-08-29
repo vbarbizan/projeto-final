@@ -1,0 +1,172 @@
+.App {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, #000000, #C40101);
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
+
+.carrossel-texto {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+
+}
+
+.titulo-carrossel {
+  margin-left: 130px;
+  color: white;
+  font-size: 70px;
+}
+
+.descricao-carrossel {
+  margin-left: 100px;
+  width: 600px;
+  color: white;
+  font-size: 35px;
+}
+
+.carrossel {
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.carrossel-image {
+  width: 100%;
+  height: auto;
+ 
+}
+
+.carrossel-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.carrossel-controls {
+  position: absolute;
+  margin-top: -400px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carrossel-controls button {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #000000;
+  border: none;
+  border-radius: 50%;
+
+}
+
+.carrossel-controls button:hover {
+  background-color: #555;
+}
+
+.pd {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 1000px) {
+  .descricao-carrossel {
+    margin-left: 100px;
+    width: 600px;
+    padding: 0;
+    margin: 0;
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;  
+  }
+  .titulo-carrossel{
+    margin: 0;
+    margin-left: 60px;
+  }
+
+  .podio{
+    flex-direction: column;
+    height: 800px;
+  }
+
+  .podio .podios {
+    align-self: center;
+    top: 50px;
+  }
+}
+
+.podio {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+ 
+}
+
+.podios {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  
+}
+
+.position {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  height: 50px;
+  position: relative;
+}
+
+.first {
+  background-color: #b8860b; /* Ouro */
+  height: 100px;
+}
+
+.second {
+  background-color: #a9a9a9; /* Prata */
+  height: 75px;
+}
+
+.third {
+  background-color: #8b4513; /* Bronze */
+  height: 60px;
+  
+}
+.third span {
+  top: 3px;
+  
+}
+
+.position span {
+  position: absolute;
+  font-size: 36px;
+  color: #000;
+  
+}
+
+
+.country {
+  position: absolute;
+  top: -100px; /* Ajuste conforme necessário */
+  color: #000;
+  text-align: center;
+ 
+}
+
+.country .pais {
+  width: 70px;
+  height: 70px;
+}

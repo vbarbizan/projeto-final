@@ -1,0 +1,50 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content h1 {
+  text-align: center;
+  color: black;
+  margin-right: 40px;
+
+}
+
+.content p {
+  text-align: center;
+  color: black;
+  margin-right: 40px;
+
+}
+
+.imagens-cima {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.imagens-cima img{
+  width: 300px;
+  height: 250px;
+
+}
+ 
+.imagens-baixo {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imagens-baixo img {
+  width: 300px;
+  height: 250px;
+}
+
+.eu {
+  margin-left: 300px;
+  width: 300px;
+  height: 250px;
+}

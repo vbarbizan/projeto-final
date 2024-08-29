@@ -1,0 +1,380 @@
+/* Estilos principais */
+.App {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(to right, #000000, #C40101);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container{
+  width: 100%;
+  height: 800px;
+  position: relative;
+  
+}
+.section {
+  flex-direction: column;
+}
+
+.content {
+  margin-left: 20px;
+  /* Reduzido para telas menores */
+  padding: 10px;
+  /* Reduzido para telas menores */
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /* Ajustado para telas menores */
+}
+
+.logoHeader {
+  width: 60px;
+  /* Reduzido para telas menores */
+  margin-right: 15px;
+  /* Reduzido para telas menores */
+}
+
+.logosesi {
+  width: 100px;
+  /* Reduzido para telas menores */
+  height: 35px;
+  /* Reduzido para telas menores */
+}
+
+.content p {
+  color: #FFFFFF;
+  font-size: 12px;
+  
+  /* Reduzido para telas menores */
+  margin-left: 10px;
+  /* Ajustado para telas menores */
+  margin-top: 10px;
+  /* Ajustado para telas menores */
+}
+
+/* Header.css */
+.header {
+  display: flex;
+  flex-direction: column;
+  /* Ajustado para telas menores */
+  align-items: center;
+  /* Centralizado para telas menores */
+  padding: 10px;
+  /* Reduzido para telas menores */
+  background-color: #333;
+  color: white;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  /* Ajustado para telas menores */
+  align-items: center;
+  /* Centralizado para telas menores */
+}
+
+.search-input {
+  padding: 8px;
+  /* Reduzido para telas menores */
+  border: none;
+  border-radius: 4px;
+  outline: none;
+  width: 100px;
+  /* Reduzido para telas menores */
+  margin-bottom: 10px;
+  /* Ajustado para telas menores */
+}
+
+.search-button {
+  padding: 8px 10px;
+  /* Reduzido para telas menores */
+  border: none;
+  border-radius: 4px;
+  background-color: #008cba;
+  color: white;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #005f73;
+}
+
+.imgSesi {
+  position: relative;
+  /* Ajustado para telas menores */
+  top: auto;
+  /* Ajustado para telas menores */
+  left: auto;
+  /* Ajustado para telas menores */
+  width: 100%;
+  /* Ajustado para telas menores */
+  height: auto;
+  /* Ajustado para telas menores */
+}
+
+.imgVolei {
+  width: 100%;
+  /* Ajustado para telas menores */
+  height: auto;
+  /* Ajustado para telas menores */
+  top: auto;
+  /* Ajustado para telas menores */
+}
+
+.container h1 {
+  margin-top: 20px;
+  /* Ajustado para telas menores */
+  margin-left: 10px;
+  /* Ajustado para telas menores */
+  color: white;
+  font-size: 24px;
+  /* Reduzido para telas menores */
+
+}
+
+.container p {
+  font-family: Khand;
+  width: 100%;
+  /* Ajustado para telas menores */
+  margin-top: 10px;
+  /* Ajustado para telas menores */
+  margin-left: 100px;
+  /* Ajustado para telas menores */
+  color: white;
+  font-size: 16px;
+  /* Reduzido para telas menores */
+}
+
+.tabela {
+  width: 100%;
+  /* Ajustado para telas menores */
+
+  flex-direction: column;
+  /* Ajustado para telas menores */
+  margin-left: 0;
+  /* Ajustado para telas menores */
+  margin-top: 20px;
+  /* Ajustado para telas menores */
+  font-size: 14px;
+  /* Reduzido para telas menores */
+  align-items: center;
+}
+
+.tabela h1 {
+  margin-top: 20px;
+  /* Ajustado para telas menores */
+}
+
+.title {
+  margin-left: 10px;
+  /* Ajustado para telas menores */
+  display: flex;
+  width: 100%;
+  /* Ajustado para telas menores */
+  height: auto;
+  /* Ajustado para telas menores */
+  background-color: #E6E0E0;
+  justify-content: space-between;
+  border-radius: 10px;
+  align-items: center;
+  padding: 5px;
+  /* Ajustado para telas menores */
+}
+
+.title h2 {
+  color: rgb(0, 0, 0);
+  margin-left: 10px;
+  /* Ajustado para telas menores */
+}
+
+.title h3 {
+  color: rgb(130, 120, 120);
+  margin-right: 10px;
+  /* Ajustado para telas menores */
+}
+
+.pai {
+  display: flex;
+  flex-direction: column;
+}
+
+.tabelas {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  /* Ajustado para telas menores */
+  /* Ajustado para telas menores */
+}
+
+.medalha {
+  margin-left: 10px;
+  /* Ajustado para telas menores */
+  margin-top: 10px;
+  /* Ajustado para telas menores */
+}
+
+.titleHeader {
+  margin-left: 10px;
+  /* Ajustado para telas menores */
+  color: white;
+  font-family: Moul;
+  font-weight: 400;
+  font-size: 24px;
+  /* Reduzido para telas menores */
+  line-height: 36px;
+  /* Ajustado para telas menores */
+}
+
+
+@media (max-width: 1000px) {
+  .tabelas {
+    flex-direction: column;
+  }
+   .container-semi{
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 430px) {
+  .App {
+    flex-direction: column;
+    /* Ajustado para telas menores */
+    height: auto;
+    /* Ajustado para telas menores */
+  }
+
+  .tabelas {
+    flex-direction: column;
+  }
+
+  .content {
+    margin-left: 10px;
+    /* Ajustado para telas menores */
+    padding: 10px;
+    /* Reduzido para telas menores */
+    flex-direction: column;
+    /* Ajustado para telas menores */
+  }
+
+  .logoHeader {
+    width: 50px;
+    /* Reduzido para telas menores */
+  }
+
+  .logosesi {
+    width: 80px;
+    /* Reduzido para telas menores */
+    height: 30px;
+    /* Reduzido para telas menores */
+  }
+
+  .content p {
+    font-size: 12px;
+    /* Reduzido para telas menores */
+    margin-left: 10px;
+    /* Ajustado para telas menores */
+    margin-top: 10px;
+    /* Ajustado para telas menores */
+  }
+
+  .header {
+    flex-direction: column;
+    /* Ajustado para telas menores */
+    align-items: center;
+    /* Ajustado para telas menores */
+    padding: 10px;
+    /* Reduzido para telas menores */
+  }
+
+  .search-form {
+    flex-direction: column;
+    /* Ajustado para telas menores */
+    align-items: center;
+    /* Ajustado para telas menores */
+  }
+
+  .search-input {
+    width: 100px;
+    /* Reduzido para telas menores */
+  }
+
+  .search-button {
+    padding: 8px 10px;
+    /* Reduzido para telas menores */
+  }
+
+  .imgSesi {
+    width: 100%;
+    /* Ajustado para telas menores */
+    height: auto;
+    /* Ajustado para telas menores */
+  }
+
+  .imgVolei {
+    width: 100%;
+    /* Ajustado para telas menores */
+    height: auto;
+    /* Ajustado para telas menores */
+  }
+
+  .container h1 {
+    font-size: 30px;
+    /* Reduzido para telas menores */
+    /* Ajustado para telas menores */
+    margin-left: 10px;
+    /* Ajustado para telas menores */
+    margin-top: 200px !important;
+  }
+
+  .container p {
+    font-size: 16px;
+    /* Reduzido para telas menores */
+    margin-top: 10px;
+    /* Ajustado para telas menores */
+    margin-left: 10px;
+    /* Ajustado para telas menores */
+  }
+
+  .tabela {
+    width: 100%;
+    /* Ajustado para telas menores */
+    font-size: 14px;
+    /* Reduzido para telas menores */
+    margin-left: 0;
+    /* Ajustado para telas menores */
+    margin-top: 10px;
+    /* Ajustado para telas menores */
+  }
+
+  .title {
+    width: 100%;
+    /* Ajustado para telas menores */
+    flex-direction: column;
+    /* Ajustado para telas menores */
+    align-items: flex-start;
+    /* Ajustado para telas menores */
+    padding: 10px;
+    /* Ajustado para telas menores */
+  }
+
+  .titleHeader {
+    font-size: 20px;
+    /* Reduzido para telas menores */
+    line-height: 30px;
+    /* Ajustado para telas menores */
+    margin-left: 10px;
+    /* Ajustado para telas menores */
+  }
+}
+@media (max-width: 600px) {
+  .container p{
+    font-size: 12px;
+  }
+}
